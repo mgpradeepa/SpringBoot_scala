@@ -1,0 +1,10 @@
+apply plugin: 'scala'
+jar {
+    baseName = 'spring-boot-scala-web'
+    version =  '0.1.0'
+}
+
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.2'
+}
